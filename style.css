@@ -1,19 +1,23 @@
+*{
+    color: #fff;
+}
 body{
-    padding: 0%;
-    margin: 0%;
+    background-color: #000 !important;
 }
 .jumbotron{
     padding: 70px 30px !important;
     margin: 0px auto;
     background-color: #9595 !important;
-    color: #fff;
 }
 .cont{
-    padding: 30px 10px;
+    padding: 50px 20px;
     margin: 0px auto;
 }
+.row-history, .row-corp{
+    padding: 40px 15px;
+}
 .foot{
-    background-color: #d1d1d1;
+    background-color: #9595 !important;
     padding:70px 30px ;
     margin: 0px auto;
 }
@@ -23,5 +27,5 @@ footer li{
 address{
     font-size: 80%;
     margin: 0px;
-    color: #0f0f3f;
+
 }
