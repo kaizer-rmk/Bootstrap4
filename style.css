@@ -1,0 +1,27 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.jumbotron{
+    padding: 70px 30px !important;
+    margin: 0px auto;
+    background-color: #9595 !important;
+    color: #fff;
+}
+.cont{
+    padding: 30px 10px;
+    margin: 0px auto;
+}
+.foot{
+    background-color: #d1d1d1;
+    padding:70px 30px ;
+    margin: 0px auto;
+}
+footer li{
+    list-style: none;
+}
+address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f3f;
+}
