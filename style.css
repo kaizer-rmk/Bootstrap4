@@ -1,12 +1,18 @@
 *{
     color: #fff;
 }
+.navbar-dark{
+    background-color:#9595;
+}
 body{
     background-color: #000 !important;
 }
 .jumbotron{
     padding: 70px 30px !important;
     margin: 0px auto;
+    background-color: #9595 !important;
+}
+.breadcrumb{
     background-color: #9595 !important;
 }
 .cont{
