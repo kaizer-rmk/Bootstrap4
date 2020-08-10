@@ -22,6 +22,12 @@ body{
 .row-history, .row-corp{
     padding: 40px 15px;
 }
+.row-content{
+    padding: 50px 20px;
+}
+input{
+    color: black !important;
+}
 .foot{
     background-color: #9595 !important;
     padding:70px 30px ;
