@@ -42,8 +42,13 @@
                         <h1>Ristorante con Fusion</h1>
                         <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                     </div>
-                    <div class="col-12 col-sm align-self-center">
+                    <div class="col-12 col-sm-3 align-self-center">
                         <img src="img/logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-3 align-self-center">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="button" class="btn btn-warning btn-block"><a href="#reserve" style="color: #000;">Reserve Table</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,6 +69,24 @@
                         </div>
                     </div>
                 </div>
+                <hr color="white">
+                <div class="row row-content align-items-center">
+                    <div class="col-12 col-sm-4 order-sm-first col-md-3">
+                        <h3>This Month's Promotions</h3>
+                    </div>
+                    <div class="col col-sm order-sm-last col-md">
+                        <div class="media">
+                            <div class="media-body">
+                                <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                                <p class="d-none d-sm-block">Featuring mouthwatering with a choice of five diffrent salads, six enticing appetizers,six main entrees and five choicest desserts.
+                                    Free flowing bubbly and soft drinks. All for just $19.99 per persion
+                                </p>
+                            </div>
+                            <img src="img/buffet.png" alt="buffet" class="d-flex mr-3 img-thumbnail align-self-center">
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="row row-content align-items-center">
                     <div class="col-12 col-sm-4 order-sm-last col-md-3">
                         <h3>Meet our Culinary Specialist</h3>
@@ -79,7 +102,43 @@
                         </div>
                     </div>
                 </div>
-                
+                <hr color="white">
+                <div class="col-12 col-sm-8 offset-sm-2 align-items-center" id="reserve">
+                    <div class="card">
+                        <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                        <div class="card-body bg-secondary">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="Guest" class="col-md-2 col-form-label">Number of Guests</label>
+                                    <div class="col-md-10">
+                                        <h5>
+                                            <input type="radio" id="opt1" name="opts"> 1&nbsp;
+                                            <input type="radio" id="opt1" name="opts"> 2&nbsp;
+                                            <input type="radio" id="opt1" name="opts"> 3&nbsp;
+                                            <input type="radio" id="opt1" name="opts"> 4&nbsp;
+                                            <input type="radio" id="opt1" name="opts"> 5&nbsp;
+                                            <input type="radio" id="opt1" name="opts"> 6&nbsp;
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="datetime" class="col-md-2 col-form-label">Date and Time</label>
+                                    <div class="col-md-4">
+                                        <input type="text" name="date" id="date" class="form-control" placeholder="Date">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" name="time" id="time" class="form-control" placeholder="Time">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="offset-md-2 col-md-10">
+                                        <button type="submit" class="btn btn-primary">Reserve</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="foot">
